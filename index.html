@@ -25,6 +25,8 @@
 
                     document.getElementById("lat").innerHTML = lat;
                     document.getElementById("lon").innerHTML = lon;
+                }, function(error) {
+                    console.log("error");
                 });
             }   
             else {
